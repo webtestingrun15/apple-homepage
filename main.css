@@ -426,5 +426,32 @@ th {
   padding: 0;
 }
 
+/**
+*
+* =Common styles
+*
+**/
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+
+/**
+*
+* =Navbar
+*
+**/
+
+.navbar {
+  background: #606060;
+  height: 46px;
+}
 
