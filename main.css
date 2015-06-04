@@ -437,3 +437,48 @@ th {
     background: #606060;
     height: 46px;
 }
+
+
+/**
+*
+* =Gallery
+*
+**/
+
+.gallery {
+    background-color: #F2F2F2;
+    height: 630px;
+}
+
+/**
+*
+* =Promos
+*
+**/
+
+.promos {
+    background-color: #BBADAD;
+    height: 202px;
+}
+
+/**
+*
+* =Banner
+*
+**/
+
+.banner {
+    background-color: #BF4F4F;
+    height: 49px;
+}
+
+/**
+*
+* =Footer
+*
+**/
+
+footer {
+    background-color: green;
+    height: 82px;
+}
