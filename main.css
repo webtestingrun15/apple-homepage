@@ -440,7 +440,7 @@ th {
 
 .top-header {
     background: #444;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     width: 100%;
     position: absolute;
     top: 0;
@@ -451,18 +451,25 @@ th {
 }
 
 .navbar ul {
-  text-align: center;
+    text-align: center;
 }
 
 .navbar li {
     display: inline-block;
     vertical-align: middle;
     margin: 0 32px;
+    height: 2.56em;
 }
 
 .navbar a {
     color: #fff;
     text-decoration: none;
+}
+
+.img-button {
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    height: 1.5em;
 }
 /**
 *
