@@ -430,9 +430,16 @@ th {
     font-weight: 400;
     line-height: 1.45;
     /*    position: relative;*/
-
     width: 100%;
+    height: 100%;
 }
+
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 /**
 *
 * =Navbar
@@ -503,18 +510,19 @@ th {
     background: url("img/osx_hero_medium.jpg") no-repeat;
     background-size: cover;
 }
+
 .gallery h2 {
-  font-size: 52px;
+    font-size: 52px;
 }
 
 .gallery li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .gallery a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
 }
 /**
 *
@@ -523,8 +531,40 @@ th {
 **/
 
 .promos {
-    background-color: #BBADAD;
+    background-color: #FFF;
     height: 202px;
+    margin: 0 auto;
+    width: 1903px;
+}
+
+.promos ul {
+    margin: 0;
+    position: relative;
+}
+
+.promos li {
+    float: left;
+    height: 200px;
+    list-style-type: none;
+    margin: 1px;
+    width: 24%;
+    position: relative;
+}
+
+.promo-watch {
+    background: url('img/promo_watch_large.jpg') center center;
+}
+
+.promo-iphone {
+    background: url('img/promo_iphone_large.jpg') center center;
+}
+
+.promo-macbook {
+    background: url(img/promo_macbook_large.jpg) center center;
+}
+
+.promo-ipad {
+    background: url(img/promo_ipad_air_2_large.jpg) center center;
 }
 /**
 *
