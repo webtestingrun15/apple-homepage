@@ -419,6 +419,13 @@ th {
     box-sizing: border-box;
 }
 
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .clearfix {
     overflow: auto;
 }
@@ -538,14 +545,11 @@ th {
 
 .promos {
     background-color: #FFF;
-    height: 202px;
-    margin: 0 auto;
-    margin-left: -40px;
-    margin-right: -40px;
 }
 
 .promos ul {
     margin: 0;
+    padding: 0;
     position: relative;
 }
 
@@ -554,7 +558,7 @@ th {
     height: 200px;
     list-style-type: none;
     margin: 1px;
-    width: 483px;
+    width: 24.8%;
     position: relative;
 }
 
